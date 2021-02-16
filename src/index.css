@@ -1,0 +1,96 @@
+body {
+    background-color: #fc0;
+    padding: 20px;
+    margin: 0;
+}
+h1, h2, li, p, ul {
+    font-family: Helvetica,Arial,sans-serif;
+}
+ul.header {
+    background-color:#111;
+    padding: 0;
+}
+    ul.header li {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+    }
+        ul.header li a {
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            }
+.content {
+    background-color: #fff;
+    padding:20px;
+}
+    .content h2 {
+        padding: 0;
+        margin: 0;
+}
+    .content li {
+        margin-bottom: 10px;
+    }
+
+.active {
+    background-color: #09f;
+}
+
+.Articles
+{
+    height: 50px;
+    background-color: black;
+    font-size: 17px;
+    width: 100px;
+    padding-top: 15px;
+}
+.Articles a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/*GAME*/
+.notification
+{
+   width: 220px;
+   height: 20px;
+   border: 1px solid black;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.block
+{
+    display: flex;
+    /*width: 200px;
+    height: 200px;
+    border: 1px solid black;*/
+}
+.name
+{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left:  5px;
+   margin-bottom: 5px;
+}
+.win
+{
+    background-image: url("gqYrNDp5OqQ.jpg")!important;
+    background-size: contain!important;
+}
+.lose
+{
+    background-image: url("m9Icp4QCQl4.jpg")!important;
+    background-size: contain!important;
+}
+.draw 
+{
+    background-image: url("ZzTttpMQGU0.jpg")!important;
+    background-size: contain!important;
+}
